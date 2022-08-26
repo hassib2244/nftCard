@@ -1,0 +1,92 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+.section-card {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-box {
+  background-color: hsl(216, 50%, 16%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* height: 400px; */
+  width: 300px;
+  border-radius: 15px;
+}
+.box-img {
+  padding: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.box-img img {
+  width: 100%;
+}
+.box-text {
+  padding: 2rem;
+  margin-top: 0;
+  justify-self: center;
+}
+.text-header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.text-description {
+  font-size: 1.6rem;
+  margin-bottom: 1.8rem;
+}
+.text-info {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid grey;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.text-author {
+  margin-top: 3.2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.text-author img {
+  width: 15%;
+  display: block;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.author-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: grey;
+}
+.author-text span {
+  font-size: 1.8rem;
+  color: white;
+}
